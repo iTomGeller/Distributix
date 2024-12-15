@@ -12,6 +12,7 @@ public class LogFormatter extends Formatter {
   private static final String FORMAT = "yyMMdd HHmmss";
   private static final String NEWLINE = System.getProperty("line.separator");
 
+  //不是static 每个logFormatter都不一样
   private final Date date = new Date();
   private final SimpleDateFormat formatter = new SimpleDateFormat(FORMAT);
 
@@ -41,7 +42,7 @@ public class LogFormatter extends Formatter {
     LogFormatter.showThreadIDs = ShowThreadIDs;
   }
 
-  //不声明成static避免锁定整个类,进而导致不同线程无法同步format
+  //不声明成static因为每一个logger都配一个formatter
   public synchronized String format(LogRecord record) {
     StringBuffer buffer = new StringBuffer();
 
