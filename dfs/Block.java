@@ -1,30 +1,6 @@
 package Distributix.dfs;
 
 import Distributix.io.*;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.Writable;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactories;
-import hadoop-release-0.1.0.src.java.org.apache.hadoop.io.WritableFactory;
 
 import java.io.*;
 import java.util.*;
