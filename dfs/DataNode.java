@@ -203,6 +203,7 @@ public class DataNode implements FSConstants, Runnable {
                 DataOutputStream reply = new DataOutputStream(new BufferedOutputStream(s.getOutputStream()));
                 try {
                     boolean shouldReportBlock = in.readBoolean();
+                    //读一个block
                     Block b = new Block();
                     b.readFields(in);
                     int numTargets = in.readInt();
